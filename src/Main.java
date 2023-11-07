@@ -14,5 +14,6 @@ public class Main {
         meuFilme.avalia(10);
 
         System.out.println("Média de avaliações do filme: " +meuFilme.mediaDasAvaliacoes());
+        System.out.println("Total de avaliações: " +meuFilme.getTotalDeAvaliacoes());
     }
 }
