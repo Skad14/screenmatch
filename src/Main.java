@@ -29,6 +29,7 @@ public class Main {
         meuFilme2.setDuracaoEmMinutos(200);
         meuFilme2.setIncluidoNoPlano(true);
         meuFilme2.exibeFichaTecnica();
+        filtro.filtra(meuFilme2);
 
         Series minhaSerie = new Series();
         minhaSerie.setNome("Lost");
